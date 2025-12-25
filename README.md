@@ -71,5 +71,6 @@ The animals example is a single C source file.
 Compile and run it with a standard compiler:
 
 ```bash
-cc animals.c -lm -O2 -o animals
+mdkir build_cmake
+cmake .. && make
 ./animals
